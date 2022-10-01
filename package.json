@@ -1,5 +1,5 @@
 {
-  "name": "docusaurus2-dotenv",
+  "name": "docusaurus2-dotenv-2",
   "version": "1.4.0",
   "description": "A Docusaurus2 plugin that supports dotenv and other environment variables and only exposes what you choose and use",
   "main": "dist/index.js",
@@ -16,16 +16,16 @@
   "author": "Jonny Nabors",
   "license": "MIT",
   "dependencies": {
-    "dotenv-webpack": "1.7.0"
+    "@docusaurus/types": "^2.1.0",
+    "@types/dotenv-webpack": "^7.0.3",
+    "dotenv-webpack": "^8.0.1"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@docusaurus/types": "2.0.0-alpha.37",
-    "@types/dotenv-webpack": "1.7.0",
     "@types/node": "13.13.5",
-    "typescript": "3.8.3"
+    "typescript": "^4.1.2"
   },
   "repository": {
     "type": "git",
