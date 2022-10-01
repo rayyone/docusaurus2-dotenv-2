@@ -1,6 +1,6 @@
 {
   "name": "docusaurus2-dotenv-2",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A Docusaurus2 plugin that supports dotenv and other environment variables and only exposes what you choose and use",
   "main": "dist/index.js",
   "scripts": {
@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonnynabors/docusaurus2-dotenv.git"
+    "url": "https://github.com/rayyone/docusaurus2-dotenv-2.git"
   }
 }

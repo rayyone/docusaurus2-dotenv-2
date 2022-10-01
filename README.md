@@ -1,18 +1,20 @@
+Forked from https://github.com/jonnynabors/docusaurus2-dotenv
+
 A Docusaurus2 plugin that supports dotenv and other environment variables and only exposes what you choose and use
 
 ### Installation
 
 Install the package in your repository
 
-`npm install docusaurus2-dotenv`
+`npm install docusaurus2-dotenv-2`
 
 or
 
-`yarn add docusaurus2-dotenv`
+`yarn add docusaurus2-dotenv-2`
 
 ### Description
 
-The `docusaurus2-dotenv` plugin wraps the `dotenv-webpack` library to allow the usage of `.env` files in Docusaurus2 projects. This allows you to access your environment variables via `process.env.VARIABLE_NAME` in your code.
+The `docusaurus2-dotenv-2` plugin wraps the `dotenv-webpack` library to allow the usage of `.env` files in Docusaurus2 projects. This allows you to access your environment variables via `process.env.VARIABLE_NAME` in your code.
 
 ### Usage
 
@@ -24,7 +26,7 @@ docusaurus.config.js
 module.exports = {
     ..., // other Docusaurus2 settings
     plugins: [
-        'docusaurus2-dotenv'
+        'docusaurus2-dotenv-2'
     ],
     ... // other Docusaurus2 settings
 }
@@ -48,7 +50,7 @@ module.exports = {
     ..., // other Docusaurus2 settings
     plugins: [
         [
-            'docusaurus2-dotenv',
+            'docusaurus2-dotenv-2',
             {
                 path: "./.env", // The path to your environment variables.
                 safe: false, // If false ignore safe-mode, if true load './.env.example', if a string load that file as the sample
